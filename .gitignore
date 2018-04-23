@@ -54,5 +54,5 @@ Mkfile.old
 dkms.conf
 
 # Editors
-*.cdp
+*.cbp
 *.depend
