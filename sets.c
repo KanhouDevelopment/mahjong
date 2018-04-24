@@ -59,16 +59,36 @@ Tile* generateSet(void)
         }
     }
 
-    /* Scramble the set */
-    size_t n = SET_SIZE - 1;
-    for (size_t i = 0; i < n - 1; i++)
+    /* Scramble the set multiple times */
+    size_t n;
+    srand(time(0));
+    for (size_t a = 0; a < 6; a++)
     {
-        srand(time(NULL));
-        size_t j = i + (rand() % (n - i));
+        n = SET_SIZE - 1;
+        if (a % 2)
+        {
+            for (size_t i = 0; i < n - 1; i++)
+            {
+                int a = rand() % (n - i);
+                size_t j = i + a;
 
-        Tile t = s[j];
-        s[j] = s[i];
-        s[i] = t;
+                Tile t = s[j];
+                s[j] = s[i];
+                s[i] = t;
+            }
+        }
+        else
+        {
+            for (size_t i = n-1; i > 1; i--)
+            {
+                int a = rand() % (n - i);
+                size_t j = i + a;
+
+                Tile t = s[j];
+                s[j] = s[i];
+                s[i] = t;
+            }
+        }
     }
 
     /* return set */

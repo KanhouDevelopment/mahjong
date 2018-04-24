@@ -15,7 +15,7 @@ int main(void)
 
     for (size_t i = 0; i < numberOfPlayers; i++)
     {
-        //sortHand(player[i].tiles);
+        sortHand(player[i].tiles);
         printHand(player[i]);
     }
 
