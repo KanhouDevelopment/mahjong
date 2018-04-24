@@ -4,9 +4,11 @@ Ett roligt projekt för jag gillar mahjong.
 
 Regler finns här: https://en.wikipedia.org/wiki/Mahjong
 
+Lista på Yaku som krävs för vinnande händer: http://www.japanesemahjong.net/mahjong-rules/yaku/
+
 Video på ett spel: https://www.youtube.com/watch?v=y05en5LlxsI
 
-## Att göra:
+## Att göra
 1. Grund funktioner.
    - [x] En hög med tiles att dra från.
    - [ ] Ge spelaren en hand som ritas ut.
