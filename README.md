@@ -4,7 +4,7 @@ Ett roligt projekt för jag gillar mahjong.
 
 Regler finns här: https://en.wikipedia.org/wiki/Mahjong
 
-Lista på Yaku som krävs för vinnande händer: http://arcturus.su/wiki/List_of_yaku
+Lista på Yaku som krävs för vinnande händer: http://www.thefullwiki.org/Japanese_Mahjong_yaku
 
 Video på ett spel: https://www.youtube.com/watch?v=y05en5LlxsI
 
